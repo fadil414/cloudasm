@@ -1,9 +1,9 @@
 <?php
 class DBController {
-	private $host = "localhost";
-	private $user = "root";
-	private $password = "";
-	private $database = "atm-toys";
+	private $host = "ec2-174-129-240-67.compute-1.amazonaws.com";
+	private $user = "fmzlacwmckgrka";
+	private $password = "c98b05ecad8f873e0db1aef7ec1426310d893d3c1a77c824d51605383ff5c1f3";
+	private $database = "d5oe7semr8nmd6";
 	private $conn;
 	
 	function __construct() {
