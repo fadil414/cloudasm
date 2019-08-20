@@ -14,7 +14,7 @@ class DBController {
 	}
 	
 	function connectDB() {
-		$conn = mysqli_connect($this->host,$this->user,$this->password,$this->database);
+		$conn = mysqli_connect($this->host,$this->user,$this->password,$this->database,$this->port);
 		return $conn;
 	}
 	
