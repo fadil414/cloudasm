@@ -5,6 +5,9 @@ class DBController {
 	private $password = "c98b05ecad8f873e0db1aef7ec1426310d893d3c1a77c824d51605383ff5c1f3";
 	private $database = "d5oe7semr8nmd6";
 	private $conn;
+	private $port ="5432";
+	private $URL ="postgres://fmzlacwmckgrka:c98b05ecad8f873e0db1aef7ec1426310d893d3c1a77c824d51605383ff5c1f3@ec2-174-129-240-67.compute-1.amazonaws.com:5432/d5oe7semr8nmd6";
+	private $Heroku ="heroku pg:psql postgresql-spherical-14399 --app cloudasm";
 	
 	function __construct() {
 		$this->conn = $this->connectDB();
